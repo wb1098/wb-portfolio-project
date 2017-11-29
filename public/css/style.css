@@ -1,0 +1,238 @@
+body {
+    background-color: #353536;
+}
+
+.whiteButton {
+    background-color: #FFFEE0;
+}
+
+header {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    font-family: fantasy;
+    color: rgba(147, 147, 136, 0.49);
+    height: 100%;
+    padding-top: 10px;
+}
+
+.navbar {
+    z-index: 9999;
+}
+
+.gentleman {
+    height: 26px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFEE0;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.topNavBar {
+    /*    background-color: rgb(15, 234, 15, 0.7);*/
+    background-color: #C90303;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+li {
+    list-style: none;
+}
+
+.logoText {
+    font-size: 24px;
+}
+
+.mainSection {
+    width: 90vw;
+    max-width: 100%;
+    margin: 20px auto;
+    background-image: url("../img/deep-tetris.jpg");
+    background-size: contain;
+    /*    background-color: #FFFEE0;*/
+    height: 100%;
+    padding: 15px;
+    border-radius: 12px;
+
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.hdr-text {
+    font-family: fantasy;
+    font-weight: 600;
+    color: #FFFEE0;
+}
+
+.mainSection h2 {
+    padding-top: 20px;
+    /*    padding-left: 10px;*/
+    font-family: fantasy;
+    font-weight: 600;
+    color: #FFFEE0;
+}
+
+.mainButtonSection {
+
+    margin: 20px auto;
+    text-align: center;
+
+    /*    position: relative;*/
+}
+
+
+
+.hd-btn {
+    width: 100%;
+    text-align: center;
+    height: 74px;
+    background-color: #FFFEE0;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 8px;
+    color: #E63728;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+
+.panelButton {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #E63728;
+    padding-top: 60px;
+    font-size: 24px;
+    text-align: center;
+    height: 15rem;
+    display: flex;
+    /*
+    position: absolute;
+    top: 20px;
+    left: 20px;
+*/
+}
+
+.panelButton:hover {
+    background-color: rgba(93, 86, 84, 0.25);
+    background-image: url(../img/gentleman_suit_Tsp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFEE0;
+    font-family: fantasy;
+    font-size: 36px;
+    padding-top: 30px;
+}
+
+.portfolioSpace {}
+
+.theSpan {
+    margin-top: 30px;
+    font-family: fantasy;
+    width: 100%;
+}
+
+.overLayer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(90, 92, 93, 0.15);
+    border-radius: 12px;
+    position: relative;
+}
+
+.portCarosel {
+    margin: auto;
+}
+
+#contactForm {
+    line-height: 14px;
+    height: 100%;
+    border: 2px solid black;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(90, 92, 93, 0.25);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contactForm input {
+    margin: 15px;
+}
+
+#contactForm textarea {
+    height: 80px;
+
+}
+
+.contact-text {
+    color: whitesmoke;
+
+}
+
+.submitBtn {
+    height: 30px;
+    margin: 10px;
+}
+
+.formHolder {
+    height: 100%;
+    width: 100%;
+
+}
+
+#portfolio-carousel {
+    margin: 20px auto;
+    width: 70%;
+}
+
+@media screen and (max-width: 400px) {
+    .panelButton {
+        padding: 8px;
+        width: 80px;
+        height: auto;
+
+    }
+
+    .theSpan {
+        font-size: 14px;
+        margin: auto;
+
+    }
+
+    footer {
+        height: 40px;
+        padding-top: 4px;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    #contactForm {
+        line-height: 22px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: auto;
+    }
+    #contactForm input {
+        margin: 2px auto;
+        height: 100%;
+
+    }
+
+}
